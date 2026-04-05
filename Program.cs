@@ -129,6 +129,30 @@
             //    Console.WriteLine("Except: " + string.Join(", ", except));
             //    Console.WriteLine($"Is {{1,2}} subset of A? {new HashSet<int> { 1, 2 }.IsSubsetOf(A)}");
             #endregion
+
+            #region Exercise 5: Print Queue
+            //Queue<string> queue = new Queue<string>();
+
+            //queue.Enqueue("Report.pdf");
+            //queue.Enqueue("Invoice.pdf");
+            //queue.Enqueue("Letter.docx");
+            //queue.Enqueue("Resume.pdf");
+            //queue.Enqueue("Photo.jpg");
+
+            //Console.WriteLine("Queue:");
+            //Console.WriteLine(string.Join(", ", queue));
+            //Console.WriteLine($"Count: {queue.Count}");
+
+            //Console.WriteLine($"Next: {queue.Peek()}");
+
+            //while (queue.Count > 0)
+            //{
+            //    Console.WriteLine($"Printing: {queue.Dequeue()}");
+            //}
+
+            //bool success = queue.TryDequeue(out string doc);
+            //Console.WriteLine($"TryDequeue success? {success}"); 
+            #endregion
         }
     }
 }
