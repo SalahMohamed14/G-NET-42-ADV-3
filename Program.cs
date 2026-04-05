@@ -64,6 +64,42 @@
             //    foreach (var item in board)
             //        Console.WriteLine($"{item.Key} : {item.Value}"); 
             #endregion
+
+            #region Exercise 3: Phone Book
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>()
+            //{
+            //    {"Ahmed","123"},
+            //    {"Sara","456"},
+            //    {"Ali","789"},
+            //    {"Mona","000"}
+            //};
+
+            //    phoneBook["Omar"] = "999"; // add or update
+
+            //    try
+            //    {
+            //        phoneBook.Add("Ahmed", "111");
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Console.WriteLine($"Error: {ex.Message}");
+            //    }
+
+            //    bool added = phoneBook.TryAdd("Ahmed", "222");
+            //    Console.WriteLine($"TryAdd success? {added}");
+
+            //    if (!phoneBook.ContainsKey("Youssef"))
+            //        Console.WriteLine("Youssef not found");
+
+            //    string result = phoneBook.GetValueOrDefault("Youssef", "Not Found");
+            //    Console.WriteLine($"Search result: {result}");
+
+            //    Console.WriteLine("Keys:");
+            //    Console.WriteLine(string.Join(", ", phoneBook.Keys));
+
+            //    Console.WriteLine("Values:");
+            //    Console.WriteLine(string.Join(", ", phoneBook.Values)); 
+            #endregion
         }
     }
 }
