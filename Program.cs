@@ -153,6 +153,30 @@
             //bool success = queue.TryDequeue(out string doc);
             //Console.WriteLine($"TryDequeue success? {success}"); 
             #endregion
+
+            #region Exercise 6: Browser History
+            //Stack<string> history = new Stack<string>();
+
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
+
+            //Console.WriteLine($"Current Page: {history.Peek()}");
+
+            //Console.WriteLine("Going Back:");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Leaving: {history.Pop()}");
+            //}
+
+            //Console.WriteLine($"Current Page: {history.Peek()}");
+
+            //history.Clear();
+            //bool success = history.TryPop(out string page);
+            //Console.WriteLine($"TryPop success? {success}"); 
+            #endregion
         }
     }
 }
